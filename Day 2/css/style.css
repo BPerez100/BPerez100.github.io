@@ -1,0 +1,161 @@
+/* my first css file */
+
+
+body {
+    /* change the text font */
+    font-family:Arial, Helvetica, sans-serif;
+
+    /* background color */  
+    background-color: #F2E7DC;
+
+}
+p {
+    color: #0D0D0D;
+}
+
+#myid{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+img{
+    text-align: center;
+    border: 10px solid pink;
+}
+
+h1{
+    text-align: center;
+    color:#027373;
+    font-size: 3rem;
+    border: 5px dotted #027373;
+    text-align: center;
+}
+
+h2,h3{
+    color:#027373
+}
+
+blockquote{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* using rems allows font size to change based on the device the site is being used on */
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+cite{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+ol {
+    color: #0D0D0D;
+}
+
+ul a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color:#A9D9D0;
+    font-size: rem;
+}
+
+ul a:hover {
+    color:#F2E7DC;
+    text-decoration:underline;
+    background-color:#A9D9D0;
+}
+
+/* links */
+a{
+    text-decoration: none;
+    color: #A9D9D0;
+}
+a:visited{
+    color:#A9D9D0;
+    font-weight:normal;
+}
+
+a:hover{
+    color:#F2E7DC;
+    text-decoration:underline;
+    background-color:#A9D9D0;
+}
+a.harvard:link{
+    color: maroon;
+}
+
+/* classes */
+
+.bigbold {
+    font-weight:lighter;
+    font-size:1.3rem;
+}
+
+.skeletorbackground {
+    background-image: url(images/Filmationskeletoronthrone.webp);
+    color: whitesmoke;
+}
+.regbackground {
+    background-color:#A9D9D0;
+    color:#0D0D0D;
+}
+
+div {
+    border: 5px blue solid;
+    margin-bottom:1rem;
+    background-color: lightblue;
+    padding-left:1rem;
+    padding-right: 1rem;
+}
+
+.box1 {
+    border-color: orange;
+    background-color: #ffcc00;
+}
+/* .box2 {
+} */
+
+.box2 p {
+    border:3px solid green;
+}
+
+.bar body{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px solid green
+}
+
+.bar ul {
+    background-color:rgb(182, 183, 185);
+    list-style-type: none;
+    border: 0px dotted blue;
+    padding: 0.4rem;
+    margin: 1rem;
+}
+.bar li {
+    border: 0px dashed green;
+    width: 8rem;
+    background-color:#027373;
+    text-align: center;
+    /* space between buttons */
+    margin-right:0.5rem;
+    margin-bottom:1rem;
+    /* horizontal nav bar*/
+    display: inline-block;
+    margin-top:0.1rem;
+}
+.bar ul a:link{
+    font-size:1.3rem;
+}
+.bar a {
+    border:0px dotted white;
+    font-size:0.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    /* makes the button itself clikckable not just the text */
+    display:block;
+    padding:0.4rem;
+}
+.bar a:hover {
+    /* background-color:white; */
+    /* color:red; */
+    text-decoration: none;
+}
